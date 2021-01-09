@@ -1,0 +1,227 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section1 {
+  background: url("img/hero.jpg");
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.top-nav {
+  height: 80px;
+  width: 100%;
+}
+.top-nav ul {
+  float: right;
+  margin-right: 100px;
+}
+.top-nav ul li {
+  display: inline-block;
+  margin: 0px 15px;
+}
+.top-nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  line-height: 80px;
+  padding-bottom: 5px;
+}
+.top-nav .logo,
+.top-nav .logo img {
+  vertical-align: middle;
+  margin-left: 50px;
+  line-height: 80px;
+}
+.top-nav ul li a:hover,
+.active {
+  border-bottom: 2px solid black;
+}
+
+.h-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.h-div1 {
+  width: 50%;
+  height: 100%;
+  padding: 100px 0px 0px 100px;
+}
+.h-div2 {
+  width: 50%;
+  height: 100%;
+}
+.h-div1 h1 {
+  font-size: 52px;
+  margin-bottom: 15px;
+}
+.h-div1 h2 {
+  font-weight: 200;
+  font-size: 25px;
+  color: #636261;
+  margin-bottom: 20px;
+}
+.h-div1 .btn1 {
+  padding: 15px 35px;
+  background-color: #302f2e;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+.h-div1 .btn2 {
+  padding: 15px 35px;
+  color: #302f2e;
+  font-weight: 600;
+  background-color: rgba(255, 254, 252, 0.3);
+}
+.h-div2 img {
+  width: 500px;
+  position: relative;
+  bottom: -4px;
+  left: 60px;
+}
+
+/*------------ABOUT SECTION------------*/
+
+.about,
+.amain {
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+.amain1 {
+  height: 50%;
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+.amain1 h1,
+.amain2 h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.amain1 p {
+  padding: 50px 25%;
+}
+.amain1 button {
+  padding: 15px 30px;
+  background-color: #302f2e;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  box-shadow: none;
+}
+.amain2 {
+  height: 50%;
+  width: 100%;
+  padding: 60px;
+}
+.amain2 .mskill {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+.skill {
+  width: 28%;
+  height: auto;
+  padding: 30px 0px;
+  display: inline-block;
+  margin: 10px 15px;
+}
+.skill h1 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+.skill .per {
+  height: 18px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(156, 157, 160);
+}
+.skill .per div {
+  height: 100%;
+  width: 80%;
+  background-color: rgb(41, 39, 39);
+}
+.mskill1 .per div {
+  width: 90%;
+}
+.mskill2 .per div {
+  width: 80%;
+}
+.mskill3 .per div {
+  width: 70%;
+}
+.mskill4 .per div {
+  width: 60%;
+}
+.mskill5 .per div {
+  width: 70%;
+}
+.mskill6 .per div {
+  width: 85%;
+}
+
+/*----------------SERVICE SECTION---------*/
+
+.service,
+.smain {
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+.smain1 {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.596),
+      rgba(255, 255, 255, 0.596)
+    ),
+    url(img/services-bg.jpg);
+  height: 350px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.smain2 {
+  height: 350px;
+  width: 100%;
+}
+.smain3 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  height: auto;
+  width: 80%;
+  text-align: center;
+  padding: 80px 50px;
+  background-color: white;
+  box-shadow: 0 0 10px rgb(58, 56, 56);
+}
+.smain3 h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.mser {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 60px;
+}
+.ser {
+  width: 30%;
+  height: auto;
+  margin: 30px 15px;
+
+  display: inline-block;
+}
+.ser p {
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 25px;
+}
