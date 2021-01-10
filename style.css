@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: auto;
 }
 .section1 {
   background: url("img/hero.jpg");
@@ -82,146 +83,225 @@
   width: 500px;
   position: relative;
   bottom: -4px;
-  left: 60px;
+  left: 20px;
 }
 
-/*------------ABOUT SECTION------------*/
+/* -------------------------about section ------------------*/
 
-.about,
-.amain {
+.about .a-m {
   height: auto;
   width: 100%;
   text-align: center;
 }
-.amain1 {
+.about .a-m .a1 {
   height: 50%;
   width: 100%;
+  padding: 5% 25%;
+  text-align: center;
   padding-top: 120px;
   padding-bottom: 60px;
 }
-.amain1 h1,
-.amain2 h1 {
-  font-size: 32px;
-  font-weight: 500;
-}
-.amain1 p {
-  padding: 50px 25%;
-}
-.amain1 button {
-  padding: 15px 30px;
-  background-color: #302f2e;
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
-  border: none;
-  box-shadow: none;
-}
-.amain2 {
+.about .a-m .a2 {
   height: 50%;
   width: 100%;
-  padding: 60px;
+  padding: 60px 0px;
+  text-align: center;
 }
-.amain2 .mskill {
+.ap {
+  text-align: justify;
+}
+.a2 h1,
+.a1 h1 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #302f2e;
+}
+.a1 button {
+  padding: 15px 30px;
+  background-color: #302f2e;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+.smd {
   width: 100%;
   height: auto;
   margin-top: 50px;
 }
-.skill {
-  width: 28%;
-  height: auto;
-  padding: 30px 0px;
+.smd .skill {
+  width: 25%;
+  height: 120px;
   display: inline-block;
-  margin: 10px 15px;
+  margin: 5px 20px;
 }
-.skill h1 {
-  font-size: 20px;
-  font-weight: 500;
+.smd .skill p {
+  font-size: 22px;
   text-align: left;
 }
-.skill .per {
-  height: 18px;
+.smd .skill .per {
+  height: 15px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
-  margin-top: 20px;
-  background-color: rgb(156, 157, 160);
 }
-.skill .per div {
+.smd .skill .per div {
+  background-color: rgba(247, 77, 16, 0.89);
   height: 100%;
+  width: 100%;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+.smd .skill .per div p {
+  font-size: 14px;
+  text-align: right;
+}
+.smd .d1 .per div {
+  width: 100%;
+}
+.smd .d2 .per div {
   width: 80%;
-  background-color: rgb(41, 39, 39);
 }
-.mskill1 .per div {
-  width: 90%;
-}
-.mskill2 .per div {
-  width: 80%;
-}
-.mskill3 .per div {
-  width: 70%;
-}
-.mskill4 .per div {
-  width: 60%;
-}
-.mskill5 .per div {
-  width: 70%;
-}
-.mskill6 .per div {
+.smd .d3 .per div {
   width: 85%;
 }
+.smd .d4 .per div {
+  width: 75%;
+}
+.smd .d5 .per div {
+  width: 70%;
+}
+.smd .d6 .per div {
+  width: 60%;
+}
 
-/*----------------SERVICE SECTION---------*/
+/*-------------------------SERVICE SECTION---------------*/
 
 .service,
-.smain {
+.sm {
   width: 100%;
-  position: relative;
   height: auto;
+  position: relative;
+  text-align: center;
 }
-.smain1 {
+
+.service .sm1 {
   background: linear-gradient(
-      rgba(255, 255, 255, 0.596),
-      rgba(255, 255, 255, 0.596)
+      rgba(255, 255, 255, 0.555),
+      rgba(255, 255, 255, 0.555)
     ),
     url(img/services-bg.jpg);
-  height: 350px;
+
   width: 100%;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.smain2 {
   height: 350px;
-  width: 100%;
 }
-.smain3 {
+.service .sm2 {
+  width: 100%;
+  height: 450px;
+}
+.service .sm3 {
   position: absolute;
   top: 20%;
-  left: 10%;
-  height: auto;
-  width: 80%;
+  left: 7%;
+  right: 7%;
+  height: 550px;
+  width: 86%;
+  z-index: auto;
   text-align: center;
-  padding: 80px 50px;
+  box-shadow: 0 0 10px #777777;
   background-color: white;
-  box-shadow: 0 0 10px rgb(58, 56, 56);
+  padding: 100px;
 }
-.smain3 h1 {
+.service .sm3 p {
+  font-size: 32px;
+}
+.sm3m {
+  width: 100%;
+  height: auto;
+  padding-top: 60px;
+}
+.sm3m .sm3c {
+  width: 25%;
+  padding: 0px;
+  margin: 20px 20px;
+  display: inline-block;
+}
+.sm3m .sm3c p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* --------------------PORTFOLIO SECTION ---------------*/
+
+.portfolio {
+  width: 100%;
+  text-align: center;
+}
+.p1 h1 {
   font-size: 32px;
   font-weight: 500;
 }
-.mser {
+.pm {
   width: 100%;
-  height: auto;
   text-align: center;
-  margin-top: 60px;
+  padding: 80px 0px;
 }
-.ser {
-  width: 30%;
-  height: auto;
-  margin: 30px 15px;
-
+.pmc {
+  width: 27%;
+  text-align: left;
+  height: 260px;
+  background-position: center;
+  background-size: cover;
   display: inline-block;
+  margin: 10px;
+  transition: 0.4s all 0s ease;
+  overflow: hidden;
 }
-.ser p {
-  margin-top: 20px;
-  text-align: justify;
-  line-height: 25px;
+.pmc .ph h1 {
+  padding: 50% 0 10% 10%;
+  color: white;
+}
+.ph {
+  height: 100%;
+  width: 100%;
+  transition: 0.4s all 0s ease;
+  transform: translateX(-100%);
+}
+.pm1 {
+  background: url(img/Portfolio-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pm2 {
+  background: url(img/Portfolio-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pm3 {
+  background: url(img/Portfolio-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pm4 {
+  background: url(img/Portfolio-4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pm5 {
+  background: url(img/Portfolio-5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pm6 {
+  background: url(img/Portfolio-6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pmc:hover .ph {
+  transform: translateX(0%);
+}
+.pmc:hover {
+  box-shadow: inset 0 0 800px 50px black;
 }
