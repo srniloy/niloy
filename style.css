@@ -160,7 +160,7 @@ section {
 /* -------------------------about section ------------------*/
 
 #about {
-  padding: 80px 0 0 0;
+  padding-top: 80px;
 }
 
 #about .a-m {
@@ -307,11 +307,12 @@ section {
 #portfolio {
   width: 100%;
   text-align: center;
+  padding-top: 80px;
 }
 
 .pm {
   width: 100%;
-  padding: 80px 0px;
+  padding-top: 80px;
 }
 .pmc {
   width: 27%;
@@ -383,7 +384,7 @@ section {
   text-align: center;
   height: auto;
   width: 100%;
-  margin-bottom: 100px;
+  padding-top: 80px;
 }
 .c1 {
   margin-bottom: 50px;
