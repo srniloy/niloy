@@ -9,6 +9,8 @@
 </head>
 <body>
     <nav class="top-nav">
+        <input type="checkbox" id="check">
+        <label for="check" class="bar"><i class="fa fa-bars"></i></label>
         <label for="" class="logo"><img src="img/logo.png" alt=""></label>
         <ul>
             <li><a href="#home" class="active">HOME</a></li>
@@ -104,9 +106,7 @@
     <div class="sm1">
 
     </div>
-    <div class="sm2">
-
-    </div>
+    
     <div class="sm3">
         <p>WHAT I DO</p>
         <img src="img/lines.svg" alt="">
@@ -138,6 +138,24 @@
         <h1>MY RECENT WORKS</h1>
         <img src="img/lines.svg" alt="">
         <div class="pm">
+            <div class="slider-input">
+                <input type="radio" id="c1">
+                <input type="radio" id="c2">
+                <input type="radio" id="c3">
+                <input type="radio" id="c4">
+                <input type="radio" id="c5">
+                <input type="radio" id="c6">
+            </div>
+            <div class="slider-dots">
+                <label for="c1" class="dots"></label>
+                <label for="c2" class="dots"></label>
+                <label for="c3" class="dots"></label>
+                <label for="c4" class="dots"></label>
+                <label for="c5" class="dots"></label>
+                <label for="c6" class="dots"></label>
+                
+            </div>
+            <div class="animate">
             <div class="pm1 pmc">
                 <div class="ph">
                 <h1>Project Title</h1>
@@ -169,9 +187,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="p2">
-        
+        </div>
     </div>
 </section>
 
@@ -187,6 +203,7 @@
     <img src="img/lines.svg" alt="">
     </div>
 
+    
     <input type="text" class="name" placeholder="Name" size="2" maxlength="50">
     <input type="email" class="email" placeholder="Email" size="50px" maxlength="50">
     <textarea name="comments" class="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
