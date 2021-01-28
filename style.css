@@ -5,6 +5,14 @@
   box-sizing: border-box;
   height: auto;
 }
+section h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+section h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
 body {
   position: relative;
 }
@@ -20,7 +28,7 @@ section {
   background-position: center;
   position: relative;
   top: -70px;
-  padding: 100px 0px 50px;
+  padding: 130px 0px 70px;
 }
 
 /* Nav Bar Start   */
@@ -54,6 +62,9 @@ section {
   margin-left: 3%;
   line-height: 70px;
   cursor: pointer;
+}
+.top-nav .logo img {
+  width: 150px;
 }
 
 .top-nav ul li a:hover,
@@ -173,13 +184,7 @@ section {
 .ap {
   text-align: justify;
 }
-.a2 h1,
-.a1 h1 {
-  font-size: 36px;
-  font-weight: 500;
-  color: #302f2e;
-  text-align: center;
-}
+
 .a1 img {
   margin-bottom: 30px;
 }
@@ -284,6 +289,7 @@ section {
   width: 100%;
   height: auto;
   display: flex;
+  padding: 50px 0;
 }
 .sm3m .sm3c {
   width: 30%;
@@ -302,10 +308,7 @@ section {
   width: 100%;
   text-align: center;
 }
-.p1 h1 {
-  font-size: 32px;
-  font-weight: 500;
-}
+
 .pm {
   width: 100%;
   padding: 80px 0px;
@@ -320,16 +323,16 @@ section {
   margin: 10px;
   transition: 0.4s all 0s ease;
   overflow: hidden;
+  box-shadow: inset 0 0 800px 15px rgba(0, 0, 0, 0.651);
 }
-.pmc .ph h1 {
-  padding: 50% 0 10% 10%;
+.pmc .ph h3 {
+  padding: 50% 0 0% 5%;
   color: white;
 }
 .ph {
   height: 100%;
   width: 100%;
   transition: 0.4s all 0s ease;
-  transform: translateX(-100%);
 }
 .pm1 {
   background: url(img/Portfolio-1.jpg);
@@ -367,11 +370,11 @@ section {
 .slider-dots {
   display: none;
 }
-.pmc:hover .ph {
+/*.pmc:hover .ph {
   transform: translateX(0%);
-}
+}*/
 .pmc:hover {
-  box-shadow: inset 0 0 800px 50px black;
+  box-shadow: inset 0 0 800px 50px rgb(0, 0, 0);
 }
 
 /*-----------CONTACT------------*/
@@ -397,6 +400,11 @@ input.email:focus,
 textarea.message:focus {
   outline: none;
   border-bottom: 1px solid rgba(116, 115, 115, 0.541);
+}
+input.name,
+input.email,
+textarea.message {
+  box-shadow: 0 0 5px rgba(94, 91, 91, 0.466);
 }
 input.email {
   margin-left: 1%;
@@ -564,6 +572,23 @@ textarea.message {
     width: 95%;
     padding: 30px;
   }
+
+  /*==========about section========*/
+
+  .smd .skill p {
+    font-size: 17px;
+  }
+  .smd .skill {
+    width: 40%;
+    margin: 4px;
+    height: 80px;
+  }
+  .smd .skill .per {
+    height: 18px;
+  }
+  .smd .skill .per div p {
+    font-size: 11px;
+  }
 }
 
 /*===============500==================*/
@@ -602,25 +627,53 @@ textarea.message {
     0% {
       left: 0%;
     }
-    20% {
+    10% {
+      left: 0%;
+    }
+    12% {
       left: -100%;
     }
-    40% {
+    30% {
+      left: -100%;
+    }
+    32% {
       left: -200%;
     }
-    60% {
+    50% {
+      left: -200%;
+    }
+    52% {
       left: -300%;
     }
-    80% {
+    70% {
+      left: -300%;
+    }
+    72% {
+      left: -400%;
+    }
+    90% {
       left: -400%;
     }
     100% {
       left: 0%;
     }
   }
-}
-.pmc .ph h1 {
-  padding: 30% 0% 0% 10%;
-}
 
+  .pmc .ph h3 {
+    padding: 35% 0% 0% 5%;
+  }
+
+  /*============contact section===========*/
+
+  input.name,
+  input.email {
+    width: 82%;
+  }
+  input.email {
+    margin-top: 30px;
+  }
+  textarea.message {
+    margin: 30px auto;
+  }
+}
 /*========responsive style 500 end========*/
