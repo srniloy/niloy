@@ -2,6 +2,7 @@ const body = document.querySelector('body');
 const nav = document.querySelector('.top-nav');
 const topOfNav = nav.offsetTop;
 const abc = document.querySelector('.clickForUp');
+const loader = document.querySelector('#preloader');
 window.addEventListener('scroll', changes);
 
 
@@ -24,3 +25,7 @@ function changes() {
 abc.addEventListener('click', function() {
     window.scrollTo(0, 0);
 });
+// ===============preloader==============
+function stopLoading() {
+    loader.style.display = 'none';
+}
